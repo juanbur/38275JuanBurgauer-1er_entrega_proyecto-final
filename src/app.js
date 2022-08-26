@@ -47,7 +47,12 @@ function capturar(){
 
 
 const list = document.getElementById('list');
+const componente = document.getElementById('componente');
 
 list.addEventListener('click', () => {
     console.log('Papa, batata, garbanzos, helado vainilla, te en hebras, bananas, manzana roja, manzana verde, arroz blanco')
+})
+
+componente.addEventListener('mousemove', () => {
+    console.log('Recuerda ingresar todos los campos')
 })
